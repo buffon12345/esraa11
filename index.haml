@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صباحك سعيد ❤️</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Cairo', sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      background: linear-gradient(120deg, #ff9a9e, #fad0c4, #fad0c4, #ffecd2);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-bottom: 15px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    }
+
+    .date {
+      font-size: 1.2em;
+      color: #ffe4e1;
+    }
+
+    .heart {
+      font-size: 2.5em;
+      color: red;
+      animation: beat 1s infinite;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.4); }
+    }
+
+    .image-container img {
+      width: 200px;
+      margin-top: 20px;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+  </style>
+</head>
+<body>
+  <h1>صباح الخير يا قلبي <span class="heart">❤️</span></h1>
+  <p>يارب يومك يكون جميل زي ابتسامتك</p>
+  <p class="date">التاريخ المميز: 7 ديسمبر 2025</p>
+  <div class="image-container">
+    <img src="https://i.ibb.co/YcF1jQH/sunrise.png" alt="صباح جميل">
+  </div>
+</body>
+</html>
